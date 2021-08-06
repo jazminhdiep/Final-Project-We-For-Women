@@ -1,0 +1,82 @@
+.cover {
+	background-color: #000a20ff;
+	padding: 0px;
+	margin: 0px;
+}
+.logo{
+	height: 150px;
+	width: 350;
+	margin:0px;
+}
+.webName {
+	background-color: #000a20ff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	color: white;
+	padding: 15px;
+	margin: 0px;
+}
+
+.menu{
+	border-color: #000a20ff;
+	background-color: #000a20ff;
+	padding: 15px;
+	display: flex;
+  	flex-direction: row;
+ 	 justify-content: space-around;
+
+}
+
+button {
+	font-family:'Open Sans',sans-serif;
+	font-size: 13px;
+	color: white;
+	border: none;
+	background-color: #000a20ff;
+
+}
+
+button:hover {
+	color: #f7838d;
+	cursor: pointer; 
+}
+
+input[type = text], textarea{
+  width: 100%;
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.body2{
+  background-color: #730220ff;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.formContainer{
+  border-radius: 100px;
+}
+
+input[type = submit]{
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+  background-color: rgb(212, 90, 123);
+
+}
+
+input[type = submit]:hover{
+  background-color: rgb(216, 43, 89);
+
+}
+
+input, textarea{
+	color: rgb(87, 1, 87);
+	font-weight: 700;
+	font-family: 'Didact Gothic', sans-serif;
+}

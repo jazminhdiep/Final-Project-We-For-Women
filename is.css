@@ -1,0 +1,203 @@
+*{
+  padding: 0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+
+.cover {
+	background-color: #000a20ff;
+	padding: 0px;
+	margin: 0px;
+}
+.logo{
+	height: 150px;
+	width: 350;
+	margin:0px;
+	opacity: 1;
+
+}
+.webName {
+	background-color: #000a20ff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	color: white;
+	padding: 15px;
+	margin: 0px;
+}
+
+.menu{
+	border-color: #000a20ff;
+	background-color: #000a20ff;
+	padding: 15px;
+	display: flex;
+  	flex-direction: row;
+ 	 justify-content: space-around;
+
+}
+
+button {
+	font-family:'Open Sans',sans-serif;
+	font-size: 13px;
+	color: white;
+	border: none;
+	background-color: #000a20ff;
+  margin: 5px;
+
+}
+
+button:hover {
+	color: #f7838d;
+	cursor: pointer; 
+}
+
+img {
+	height: 350px;
+	width: 350px;
+	object-fit: cover;
+	margin: 30px;
+	padding: 0px;
+	border-radius: 15px;
+	opacity: 1;
+  
+}
+
+
+
+.employ{
+opacity:0;
+font-size: 20px;
+padding: 40px;
+margin: 0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-300px, 150px);
+cursor: pointer;
+}
+
+.employ:hover{
+opacity: 1;
+cursor: pointer;
+}
+
+.stemWomen{
+opacity:0;
+font-size: 20px;
+padding: 40px;
+margin: 0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-310px, 150px);
+}
+
+.stemWomen:hover{
+opacity: 1;
+cursor: pointer;
+}
+
+.offense{
+opacity:0;
+font-size: 20px;
+padding: 40px;
+margin: 0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-280px, 150px);
+}
+
+.offense:hover{
+opacity: 1;
+cursor: pointer;
+}
+
+.matWomen{
+opacity:0;
+font-size: 20px;
+padding: 40px;
+margin: 0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-375px, 150px);
+}
+
+.matWomen:hover{
+opacity: 1;
+cursor: pointer;
+}
+
+.abort{
+opacity:0;
+font-size: 20px;
+padding: 40px;
+margin: 0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-310px, 150px);
+}
+
+.abort:hover{
+opacity: 1;
+cursor: pointer;
+}
+
+.birth{
+opacity:0;
+font-size: 20px;
+padding: 40px;
+margin: 0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-280px, 150px);
+}
+
+.birth:hover{
+opacity: 1;
+cursor: pointer;
+}
+
+.child{
+opacity:0;
+font-size: 20px;
+padding: 40px;
+margin: 0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-300px, 150px);
+}
+
+.child:hover{
+opacity: 1;
+cursor: pointer;
+}
+
+.edu{
+opacity:0;
+font-size: 20px;
+padding: 40px;
+margin: 0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-280px, 150px);
+}
+
+.edu:hover{
+opacity: 1;
+cursor: pointer;
+}
+p{
+  display: flex;
+  justify-content:center;
+}
+
+.red{
+	background-color: #730220ff
+}
+

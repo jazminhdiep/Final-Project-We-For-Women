@@ -1,0 +1,184 @@
+.cover {
+	background-color: #000a20ff;
+	padding: 0px;
+	margin: 0px;
+}
+.logo{
+	height: 150px;
+	width: 350;
+	margin:0px;
+}
+.webName {
+	background-color: #000a20ff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	color: white;
+	padding: 15px;
+	margin: 0px;
+}
+
+.menu{
+	border-color: #000a20ff;
+	background-color: #000a20ff;
+	padding: 15px;
+	display: flex;
+  	flex-direction: row;
+ 	 justify-content: space-around;
+}
+
+
+button {
+	font-family:'Open Sans',sans-serif;
+	font-size: 13px;
+	color: white;
+	border: none;
+	background-color: #000a20ff;
+
+}
+
+button:hover {
+	color: #f7838d;
+	cursor: pointer; 
+}
+
+
+
+.quote {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	color: white;
+	font-size: 25px;
+	padding: 50px;
+	margin: 0px;
+	background-color: #730220ff;
+}
+
+.welcome {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 50px;
+	padding: 50px;
+	color: white;
+	background-color: #730220ff;
+
+}
+
+.middle {
+	background-color: #730220ff;
+	padding: 0px;
+	margin: -2px;
+	margin-right:-5px;
+}
+.middle1 {
+	background-color: #730220ff;
+	padding: 0px;
+	margin-top: -2px;
+	margin-left: -5px
+}
+
+.red{
+	background-color: #730220ff;
+}
+
+.photo {
+	background-color: #000a20ff;
+}
+.pg {
+background-color: #000a20ff;
+height: 350px;
+width: 350px;
+object-fit: cover;
+padding: 5px;
+margin: 5px;
+opacity: 1;
+}
+
+
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
+
+.landingimg {
+	padding-left: auto;
+	margin-left: auto;
+	background-color: #730220ff;
+	object-fit: cover;
+	height: auto;
+	width: auto;
+}
+
+@media screen and (max-width: 1000px) {
+  .li {
+  height: 400px;
+	width: 400px;
+	object-fit: contain;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  .li {
+  height: 200px;
+	width: 200px;
+	object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 800px) {
+	.quote {
+		font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+	.welcome {
+		font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+	.quote {
+		font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+	.welcome {
+		font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+	.pg {
+		height: 250px;
+		width: 250px;
+		object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 650px) {
+	.pg {
+		height: 100px;
+		width: 100px;
+		object-fit: cover;
+  }
+}

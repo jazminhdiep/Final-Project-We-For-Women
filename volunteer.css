@@ -1,0 +1,301 @@
+p{
+  border-color: #730220ff;
+  padding: 8px;
+  font-family: 'Open Sans',sans-serif;
+  font-size: 18px;  
+}
+.support{
+  color: whitesmoke;
+
+}
+
+
+img {
+  height: 225px;
+  width:450px;
+  border-radius: 10px;
+  object-fit: cover;
+  margin-right: 7%; 
+}
+ 
+
+.cover {
+	background-color: #000a20ff;
+	padding: 0px;
+	margin: 0px;
+}
+.logo{
+	height: 150px;
+	width: 350;
+	margin:0px;
+}
+.webName {
+	background-color: #000a20ff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 50px;
+	color: white;
+	padding: 15px;
+	margin: 0px;
+}
+
+.menu{
+	border-color: #000a20ff;
+	background-color: #000a20ff;
+	padding: 15px;
+	display: flex;
+  	flex-direction: row;
+ 	 justify-content: space-around;
+
+}
+
+button {
+	font-family:'Open Sans',sans-serif;
+	font-size: 13px;
+	color: white;
+	border: none;
+	background-color: #000a20ff;
+
+}
+
+button:hover {
+	color: #f7838d;
+	cursor: pointer; 
+}
+.intro{
+  background-color: #730220ff;
+  border-color:  #730220ff;
+  font-size: 30px;
+}
+
+ /*
+.allInfo{
+  background-color: rgb(233, 220, 220);;
+  border-radius: 10 px;
+ border: 10px solid  #730220ff; 
+}*/
+
+.body{
+ background-color:  #730220ff;
+}
+
+.intro{
+  color: white;
+	font-family: 'Open Sans',sans-serif;
+	padding: 10px;
+	margin: 10px;
+}
+
+.blue{
+	background-color: #000a20ff;
+}
+
+.container{
+  display: flex;
+  border: 3px solid  #000a20ff;
+  padding: 10px;
+  /*background-color: salmon;*/
+  background-color: #000a20ff;
+  color: whitesmoke;
+}
+
+.box{
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid 000a20ff;
+}
+
+
+body{
+  /*background-color: #f7838d;*/
+  background-color:#000a20ff;
+}
+.image1{
+  height: 260px;
+  width:260px;
+  padding: 0%;
+  margin:1.5%;
+ /* border:4px solid  #000a20ff;*/
+}
+.image2{
+  height: 260px;
+  width:260px;
+  padding: 0%;
+  margin:2.0%;
+  /*border: 4px solid  #000a20ff;*/
+}
+
+.image4{
+  height: 260px;
+  width:260px;
+  padding: 0%;
+  margin:1.5%;
+  margin-bottom:1.5;
+ /* border: 4px solid  #000a20ff;*/
+}
+.image5{
+  height: 260px;
+  width:260px;
+  padding: 0%;
+  margin: 1.5%;
+  /*border: 4px solid  #000a20ff;*/
+}
+.image6{
+  height: 260px;
+  width:260px;
+  padding: 0%;
+  margin: 1.5%;
+ /* border: 4px solid  #000a20ff;*/
+}
+.image7{
+  height: 260px;
+  width:260px;
+  padding: 0%;
+  margin:1.5%;
+  /*border: 4px solid  #000a20ff;*/
+}
+.image8{
+  height: 260px;
+  width:260px;
+ padding: 0%;
+  margin:1.5%;
+ /* border: 4px solid  #000a20ff;*/ 
+}
+.image9{
+  height: 260px;
+  width:260px;
+ padding: 0%;
+  margin:1.5%;
+  /*border: 4px solid  #000a20ff; */
+}
+.womenStem{
+ opacity:0;
+padding:2%;
+font-size: 20px;
+margin:0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-310px, 150px); 
+}
+womenStem:hover{
+  opacity:1;
+  cursor:pointer;
+}
+.education{
+opacity:0;
+padding:2%;
+font-size: 20px;
+margin:0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-310px, 150px);
+}
+.education:hover{
+  opacity:1;
+  cursor:pointer;
+}
+
+.abortion{
+  opacity:0;
+padding:2%;
+font-size: 20px;
+margin:0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-250px, 150px);
+}
+
+.abortion:hover{
+  opacity:1;
+  cursor:pointer;
+}
+
+.employment{
+  opacity:0;
+padding:2%;
+font-size: 20px;
+margin:0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-270px, 150px);
+}
+.employment:hover{
+  opacity:1;
+  cursor:pointer;
+}
+.maternalStruggles{
+  opacity:0;
+padding:2%;
+font-size: 20px;
+margin:0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-280px, 150px);
+}
+.maternalStruggles:hover{
+  opacity:1;
+  cursor:pointer;
+}
+.childMarriage{
+  opacity:0;
+padding:2%;
+font-size: 20px;
+margin:0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-260px, 150px);
+}
+.childMarriage:hover{
+  opacity:1;
+  cursor:pointer;
+}
+.sexualAssault{
+  opacity:0;
+padding:2%;
+font-size: 20px;
+margin:0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-200px, 150px);
+}
+.sexualAssault:hover{
+  opacity:1;
+  cursor:pointer;
+}
+.birthControl{
+  opacity:0;
+padding:2%;
+font-size: 20px;
+margin:0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-280px, 150px);
+}
+.birthControl:hover{
+  opacity:1;
+  cursor:pointer;
+}
+.womenStem{
+  opacity:0;
+padding:2%;
+font-size: 20px;
+margin:0px;
+transition: .5s ease;
+position: absolute;
+text-align:center;
+transform: translate(-210px, 150px);
+}
+.womenStem:hover{
+  opacity:1;
+  cursor:pointer;
+}
+
+
